@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/msellami/kafka-scala/kafka�scala/src/main/scala/example/producer.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/msellami/kafka-scala/kafka�scala/src/main/scala/example/producer.scala:13:22: not found: type KafkaProducer[0m
+[0m[[0m[31merror[0m] [0m[0m  val producer = new KafkaProducer[String, String](props)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/msellami/kafka-scala/kafka�scala/src/main/scala/example/producer.scala:17:24: not found: type ProducerRecord[0m
+[0m[[0m[31merror[0m] [0m[0m      val record = new ProducerRecord[String, String](topic, i.toString, "My Site is sparkbyexamples.com " + i)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
